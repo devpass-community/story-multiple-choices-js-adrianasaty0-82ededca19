@@ -4,7 +4,7 @@ function chooseProduct(segment) {
         'Fruit': 'Apple',
         'Hygiene': 'Soap'
     }
-    return segmentsProduct.segment
+    return segmentsProduct[segment]
 }
 
 module.exports = chooseProduct;
