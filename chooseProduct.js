@@ -1,5 +1,10 @@
 function chooseProduct(segment) {
-    // Add your solution here!
+    const segmentsProduct = {
+        'Beverage': 'Soda',
+        'Fruit': 'Apple',
+        'Hygiene': 'Soap'
+    }
+    return segmentsProduct[segment]
 }
 
 module.exports = chooseProduct;
